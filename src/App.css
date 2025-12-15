@@ -29,7 +29,8 @@ body {
     top: 0;
     left: 0;
     width: 24px;
-    height: 2px;
+    height: 4px;
+    /* height: 2px; */
     background: #3a3a3a;
     transform: rotate(0);
     transition: all 0.5s;
@@ -58,6 +59,83 @@ body {
 
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/* Accessibility helper classes */
+.accessible-bg-dark {
+    background-color: #1a1a1a !important;
+}
+.accessible-bg-light {
+    background-color: #fff !important;
+}
+.accessible-text-dark {
+    color: #1a1a1a !important;
+}
+.accessible-text-light {
+    border-radius: 0.375rem;
+    color: #fff !important;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.accessible-text-light:focus, .accessible-text-light:active {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+.accessible-text-light:hover {
+    background-color: #b91c1c !important;
+    color: #fff !important;
+}
+
+/* Accessible button with red background and white text */
+.accessible-btn-red {
+    background-color: #c6211e !important;
+    /* background-color: #c94b49 !important; */
+    color: #fff !important;
+    border: 2px solid #e53935 !important;
+    border-radius: 9999px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+.accessible-btn-red:focus, .accessible-btn-red:active {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+.accessible-btn-red:hover {
+    background-color: #b91c1c !important;
+    color: #fff !important;
+}
+
+/* Accessible button with white background and red text */
+.accessible-btn-white {
+    /* background-color: #f9efef !important; */
+    background-color: #fff !important;
+    color: #b31e1b !important;
+    /* color: #e53935 !important; */
+    border: 2px solid #e53935 !important;
+    border-radius: 9999px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+.accessible-btn-white:focus, .accessible-btn-white:active {
+    outline: 2px solid #e53935;
+    outline-offset: 2px;
+}
+.accessible-btn-white:hover {
+    background-color: #d1c8c8 !important;
+    /* background-color: #e53935 !important; */
+    color: #000 !important;
+    /* color: #fff !important; */
+}
+
+.accessible-bg-testimonial {
+  background-color: hsl(0deg 16.42% 90.45%) !important;
+}
+
+.accessible-bg-list-number {
+  background-color: #c6211e;
 }
 
 @media(max-width: 576px) {
