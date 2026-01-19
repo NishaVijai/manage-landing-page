@@ -32,7 +32,7 @@ The project demonstrates a **modern landing page layout**, including hero sectio
 ## Preview
 
 🔗 **Live Demo:**
-[https://nishavijai.github.io/manage-landing-page/](https://nishavijai.github.io/manage-landing-page/)
+[https://vite-project-manage-landing-page.netlify.app/](https://vite-project-manage-landing-page.netlify.app/)
 
 ---
 
@@ -126,7 +126,7 @@ Frontend Mentor helps developers improve their frontend skills through real-worl
 
 ## Deployment
 
-The project is deployed using **GitHub Pages**.
+The project is deployed using **Netlify**.
 
 To deploy updates:
 
@@ -134,7 +134,7 @@ To deploy updates:
 git push origin main
 ```
 
-GitHub Pages will automatically rebuild and publish the site.
+Netlify will automatically rebuild and publish the site.
 
 ---
 
